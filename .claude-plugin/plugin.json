@@ -1,0 +1,8 @@
+{
+  "name": "legal-assistant",
+  "description": "Australian legal research, advice drafting, and document review with rigorous primary source verification to minimize hallucination risks",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bird"
+  }
+}
