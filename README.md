@@ -32,9 +32,14 @@ The Legal Assistant plugin provides three interconnected skills and a citation v
 
 ## Installation
 
-The plugin is located at: `C:\Users\Bird\.claude\plugins\legal-assistant\`
+The plugin should be located at: `~/.claude/plugins/legal-assistant/`
 
-Claude Code will auto-discover the plugin on startup.
+**Quick install (from the plugin directory):**
+
+- **Linux/macOS:** `bash install.sh`
+- **Windows (PowerShell):** `.\install.ps1`
+
+The install script copies the plugin into place, registers it in `installed_plugins.json`, and enables it in `settings.json`. Restart Claude Code after running.
 
 ## Skills
 
